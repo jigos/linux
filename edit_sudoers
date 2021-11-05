@@ -1,0 +1,4 @@
+#verify file
+sudo visudo -cf /etc/sudoers.d/99_sudo_include_file
+#copy file
+sudo cp -cf /etc/sudoers.d/99_sudo_include_file /etc/sudoers
