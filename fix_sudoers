@@ -1,0 +1,14 @@
+#Open two ssh sessions to the target server.
+#In the first session, get the PID of bash by running:
+
+echo $$
+
+#In the second session, start the authentication agent with:
+
+pkttyagent --process (pid from step 2)
+
+#Back in the first session, run:
+
+pkexec chmod 440 /etc/sudoers
+
+#In the second session, you will get the password prompt.
