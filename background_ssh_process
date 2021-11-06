@@ -1,0 +1,5 @@
+#ssh na máquina remota
+#inicie tmux digitando tmux no shell
+#inicie o processo que você deseja dentro da sessão iniciada tmux
+#deixe / desanexar a sessão tmux digitando Ctrl + b e depois d
+#Agora você pode fazer logoff com segurança da máquina remota, o processo continuará sendo executado dentro de tmux . Quando você voltar e quiser verificar o status do seu processo, você pode usar tmux attach para anexar à sua sessão tmux . 
